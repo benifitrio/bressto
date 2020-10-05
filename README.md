@@ -2,7 +2,7 @@
 implementations pwa, Web Performance , Mobile First Approach, and accesibility
 
 <h1>Bressto</h1>
-Final Submission dari Kelas <a href="https://www.dicoding.com/academies/219">Membangun Progressive Web Apps (MPWA) </a> - di Dicoding.
+Final Submission dari Kelas <a href="https://www.dicoding.com/academies/219">Menjadi Front-End Web Developer Expert  </a> - di Dicoding.
 <hr>
 
 <h1>What is Progressive Web Apps</h1>
