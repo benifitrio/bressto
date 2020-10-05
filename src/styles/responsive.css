@@ -1,0 +1,74 @@
+/* responsive */
+@media (max-width:416px){
+    .text-heading::after {top: 8.7rem;}
+}
+
+@media (min-width: 768px){
+    nav.sidenav{display: none;}
+
+    #top-hidden{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+
+    .jumbotron{height: 37rem;}
+
+    button.burger{display: none;}
+
+    .jumbotron .container h2{
+        font-size: 3.5rem;
+        font-weight: 300;
+    }
+
+    .jumbotron .container p{font-size: 1.6rem;}
+
+    .scroll span{font-size: 1rem;}
+
+    .row .text-heading {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .row .text-heading::after {top: 5rem;}
+
+    .description .title{font-size: 2rem;}
+
+    .card .description .subtitle{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:768px){
+    #top-hidden{display: none;}
+}
+
+@media (min-width:960px){
+    header nav.top-nav ul li a.nav-link{font-size: 2rem;}
+
+    #top-hidden{display: flex;}
+
+    .jumbotron{height: 54rem;}
+
+    .row .text-heading{
+        font-size: 2.5rem;
+        margin-bottom: 3.7rem;
+    }
+
+    .images-detail {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    ul.detail-info {
+        margin-left: 2rem;
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    .detail-menu.grid-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
